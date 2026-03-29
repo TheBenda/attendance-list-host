@@ -1,3 +1,11 @@
 <Solution>
-  <Folder Name="/aspire/" />
+  <Folder Name="/aspire/">
+    <Project Path="aspire/ALB.AppHost/ALB.AppHost.csproj" />
+    <Project Path="aspire/ALB.MigrationService/ALB.MigrationService.csproj" />
+    <Project Path="aspire/ALB.ServiceDefaults/ALB.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/projects/">
+    <Project Path="../attendance-list-backend/src/ALB.Api/ALB.Api.csproj" />
+    <Project Path="../attendance-list-backend/src/ALB.Infrastructure/ALB.Infrastructure.csproj" />
+  </Folder>
 </Solution>
