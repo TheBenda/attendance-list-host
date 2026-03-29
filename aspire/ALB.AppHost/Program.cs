@@ -15,7 +15,7 @@ var api = builder.AddProject<Projects.ALB_Api>("Api")
     .WaitFor(postgresdb)
     .WaitFor(migrationService);
 
-var viteApp = builder.AddViteApp("vite-app", "../attendance-list-frontend")
+var viteApp = builder.AddViteApp("vite-app", "../../../attendance-list-frontend/")
     .WithReference(api);
 
 api.WithReference(viteApp)
