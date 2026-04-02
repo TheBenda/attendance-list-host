@@ -21,11 +21,19 @@ var viteApp = builder.AddViteApp("vite-app", "../../../attendance-list-frontend/
 api.WithReference(viteApp)
     .WaitFor(viteApp);
 
-var gateway = builder.AddYarp("gateway") 
+/*
+
+_ = builder.AddYarp("gateway") 
     .WithConfiguration(yarp =>
     {
-        yarp.AddRoute(viteApp);
+        var cluster = new YarpCluster();
+        yarp.AddCluster("api-cluster", destination: "http://alb-api");
+        yarp.AddCluster("frontend-cluster", destination: "http://alb-frontend");
+        
         yarp.AddRoute("/api/{**catch-all}", api);
+        
+        yarp.AddRoute("/{**catch-all}", viteApp);
     });
+    */
 
 builder.Build().Run();

@@ -9,6 +9,6 @@
     <Project Path="../attendance-list-backend/src/ALB.Infrastructure/ALB.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="PlaywrightTests/PlaywrightTests.csproj" />
+    <Project Path="EndToEndTests/EndToEndTests.csproj" />
   </Folder>
 </Solution>

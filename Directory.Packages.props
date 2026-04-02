@@ -10,7 +10,6 @@
     <PackageVersion Include="Aspire.Hosting.Yarp" Version="13.1.0" />
     <PackageVersion Include="Aspire.Npgsql" Version="13.1.0" />
     <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.1.0" />
-    <PackageVersion Include="Blazor.Bootstrap" Version="3.5.0" />
     <PackageVersion Include="Bogus" Version="35.6.5" />
     <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.5" />
     <PackageVersion Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.5" />
@@ -33,8 +32,8 @@
     <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="10.2.0" />
     <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.5" />
     <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="10.2.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery.Yarp" Version="10.4.0" />
     <PackageVersion Include="Microsoft.Playwright.Xunit.v3" Version="1.58.0" />
-    <PackageVersion Include="MudBlazor" Version="8.15.0" />
     <PackageVersion Include="NodaTime" Version="3.2.2" />
     <PackageVersion Include="NodaTime.Serialization.SystemTextJson" Version="1.3.0" />
     <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime" Version="10.0.0" />
@@ -50,9 +49,11 @@
     <PackageVersion Include="TickerQ" Version="10.0.0-beta.17" />
     <PackageVersion Include="TickerQ.Dashboard" Version="10.0.0-beta.17" />
     <PackageVersion Include="TickerQ.EntityFrameworkCore" Version="10.0.0-beta.17" />
-    <PackageVersion Include="TUnit" Version="1.2.3" />
+    <PackageVersion Include="TUnit" Version="1.24.0" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
     <PackageVersion Include="xunit.v3.mtp-off" Version="3.2.2" />
+    <PackageVersion Include="TUnit.Playwright" Version="1.24.0" />
+    <PackageVersion Include="Yarp.ReverseProxy" Version="2.3.0" />
   </ItemGroup>
 </Project>
