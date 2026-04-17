@@ -16,7 +16,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\..\..\attendance-list-backend\src\ALB.Infrastructure\ALB.Infrastructure.csproj" />
-      <ProjectReference Include="..\ALB.ServiceDefaults\ALB.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\ALB.HostServiceDefaults\ALB.HostServiceDefaults.csproj" />
     </ItemGroup>
 
 </Project>

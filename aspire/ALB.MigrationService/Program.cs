@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddNpgsqlDataSource("postgresdb",
     configureDataSourceBuilder: sourceBuilder => sourceBuilder.UseNodaTime());
 
-builder.AddServiceDefaults();
+builder.AddHostServiceDefaults();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
