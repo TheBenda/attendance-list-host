@@ -2,14 +2,17 @@
   <!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <MicrosoftDefaultVersion>10.0.5</MicrosoftDefaultVersion>
+    <OpenTelemetryVersion>1.15.0</OpenTelemetryVersion>
+    <AspireVersion>13.2.0</AspireVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Aspire.Hosting.JavaScript" Version="13.1.0" />
-    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="13.1.0" />
-    <PackageVersion Include="Aspire.Hosting.Testing" Version="13.1.0" />
-    <PackageVersion Include="Aspire.Hosting.Yarp" Version="13.1.0" />
-    <PackageVersion Include="Aspire.Npgsql" Version="13.1.0" />
-    <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.1.0" />
+    <PackageVersion Include="Aspire.Hosting.JavaScript" Version="$(AspireVersion)" />
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="$(AspireVersion)" />
+    <PackageVersion Include="Aspire.Hosting.Testing" Version="$(AspireVersion)" />
+    <PackageVersion Include="Aspire.Hosting.Yarp" Version="$(AspireVersion)" />
+    <PackageVersion Include="Aspire.Npgsql" Version="$(AspireVersion)" />
+    <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="$(AspireVersion)" />
     <PackageVersion Include="Bogus" Version="35.6.5" />
     <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.5" />
     <PackageVersion Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.5" />
@@ -46,13 +49,8 @@
     <PackageVersion Include="Scalar.AspNetCore" Version="2.10.3" />
     <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.0" />
     <PackageVersion Include="Testcontainers.PostgreSql" Version="4.8.1" />
-    <PackageVersion Include="TickerQ" Version="10.0.0-beta.17" />
-    <PackageVersion Include="TickerQ.Dashboard" Version="10.0.0-beta.17" />
-    <PackageVersion Include="TickerQ.EntityFrameworkCore" Version="10.0.0-beta.17" />
     <PackageVersion Include="TUnit" Version="1.24.0" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
-    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
-    <PackageVersion Include="xunit.v3.mtp-off" Version="3.2.2" />
     <PackageVersion Include="TUnit.Playwright" Version="1.24.0" />
     <PackageVersion Include="Yarp.ReverseProxy" Version="2.3.0" />
   </ItemGroup>

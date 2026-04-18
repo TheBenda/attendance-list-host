@@ -1,8 +1,11 @@
 <Solution>
+  <Folder Name="/.build/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
   <Folder Name="/aspire/">
     <Project Path="aspire/ALB.AppHost/ALB.AppHost.csproj" />
     <Project Path="aspire/ALB.MigrationService/ALB.MigrationService.csproj" />
-    <Project Path="aspire/ALB.ServiceDefaults/ALB.ServiceDefaults.csproj" />
+    <Project Path="aspire\ALB.HostServiceDefaults\ALB.HostServiceDefaults.csproj" />
   </Folder>
   <Folder Name="/projects/">
     <Project Path="../attendance-list-backend/src/ALB.Api/ALB.Api.csproj" />
