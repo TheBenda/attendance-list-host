@@ -14,8 +14,4 @@
         <PackageReference Include="TUnit.Playwright" />
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\aspire\ALB.AppHost\ALB.AppHost.csproj" />
-    </ItemGroup>
-
 </Project>
