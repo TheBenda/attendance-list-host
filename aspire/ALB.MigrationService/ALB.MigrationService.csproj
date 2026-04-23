@@ -14,9 +14,4 @@
         <PackageReference Include="NodaTime" />
     </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\..\..\attendance-list-backend\src\ALB.Infrastructure\ALB.Infrastructure.csproj" />
-        <ProjectReference Include="..\ALB.HostServiceDefaults\ALB.HostServiceDefaults.csproj" />
-    </ItemGroup>
-
 </Project>

@@ -23,9 +23,4 @@
         </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\..\..\attendance-list-backend\src\ALB.Api\ALB.Api.csproj" />
-        <ProjectReference Include="..\ALB.MigrationService\ALB.MigrationService.csproj" />
-    </ItemGroup>
-
 </Project>
